@@ -26,15 +26,13 @@
         material="src: #wood"
         shadow 
         animation__mouseenter="
-          property: components.material.material.color; 
-          type: color; 
-          to: blue; 
+          property: components.rotation;  
+          to: 0 -45 0; 
           startEvents: mouseenter; 
           dur: 500;"
         animation__mouseleave="
-          property: components.material.material.color; 
-          type: color; 
-          to: red; 
+          property: components.rotation;  
+          to: 0 70 0; 
           startEvents: mouseleave; 
           dur: 500;">  
       </a-box>
